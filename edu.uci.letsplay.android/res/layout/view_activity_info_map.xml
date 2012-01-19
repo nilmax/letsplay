@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <TextView android:id="@+id/map_label"
+        android:layout_width="72dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="Label"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+    />
+    <TextView android:id="@+id/map_value"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:singleLine="false"
+        android:text="Data"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingRight="6dip"
+    />
+    <ImageView
+android:id="@+id/map_icon"
+android:layout_width="45dip"
+android:layout_height="fill_parent"
+android:src="@drawable/sym_action_map"
+android:scaleType="fitCenter" android:padding="8dip"/>    
+</LinearLayout>

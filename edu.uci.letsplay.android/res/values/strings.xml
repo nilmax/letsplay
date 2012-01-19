@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LetsPlay</string><string name="menu_activity_new">New activity</string><string name="menu_activity_view">View activity</string><string name="menu_activity_cancel">Cancel participation</string><string name="ghostData_name">Place name</string><string name="button_discard">Discard changes</string><string name="button_save">Save</string>
+    <string name="app_name">Lets Play</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group -->
+    <string name="noActivities">"You don't have any sport activity in your defined range.\n\nTo add a new activity, press <font fgcolor="#ffffffff"><b>Menu</b></font> and select:\n\n<li><font fgcolor="#ffffffff"><b>New activity</b></font>\n</li>"</string>
+    <string name="noContacts">"You don't have any contacts in your defined range."
+    </string>
+    <string name="noMessages">"You don't have any messages in your <font fgcolor="#ffffffff"><b>Inbox</b></font>."
+    </string>    
+<string name="button_cancel">Cancel</string>
+<string name="button_join">Join</string>
+<string name="button_back">Back</string>
+<string name="activity_prompt">Choose a sport:</string>
+<string name="comm_msg_getting_data">&quot;Getting data from server...&quot;</string>
+<string name="comm_server_address">10.0.1.4</string>
+<string name="comm_my_phone_number">6099029862</string>
+<string name="users_prompt">Choose the number of players:</string>
+<string name="menu_view_user">View user</string>
+</resources>
